@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Canteen</title>
+<link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+
+<h1 class="h1">College Canteen Menu</h1>
+<p>Select your favourite food</p>
+
+<div class="container">
+<div class="menu">
+<div class="category">
+<h2>Breakfast</h2>
+
+<ul>
+<li>
+<img src="download (2).jpeg">
+<p>Idli ₹30</p>
+<button onclick="add('Idli',30)">Add</button>
+</li>
+
+<li>
+<img src="Easy Dosa Recipe with Rice Flour _ Madhu's Everyday Indian.jpeg">
+<p>Dosa ₹40</p>
+<button onclick="add('Dosa',40)">Add</button>
+</li>
+
+<li>
+<img src="Ven Pongal Recipe (Khara Pongal).jpeg">
+<p>Pongal ₹40</p>
+<button onclick="add('Pongal',40)">Add</button>
+</li>
+
+</ul>
+</div>
+
+
+<div class="category">
+<h2>Lunch</h2>
+
+<ul>
+<li>
+<img src="Onam Sadhya _ Onam Sadya Recipes.jpeg">
+<p>Meals ₹80</p>
+<button onclick="add('Meals',80)">Add</button>
+</li>
+
+<li>
+<img src="Spicy dum biryani.jpeg">
+<p>Biriyani ₹100</p>
+<button onclick="add('Biriyani',100)">Add</button>
+</li>
+
+<li>
+<img src="Veg Fried Rice.jpeg">
+<p>Fried Rice ₹70</p>
+<button onclick="add('Fried Rice',70)">Add</button>
+</li>
+
+</ul>
+</div>
+
+
+<div class="category">
+<h2>Snacks</h2>
+
+<ul>
+
+<li>
+<img src="Crispy Aloo Samosa.jpeg">
+<p>Samosa ₹15</p>
+<button onclick="add('Samosa',15)">Add</button>
+</li>
+
+<li>
+<img src="tea.jpeg">
+<p>Tea ₹10</p>
+<button onclick="add('Tea',10)">Add</button>
+</li>
+
+<li>
+<img src="download (3).jpeg">
+<p>Coffee ₹15</p>
+<button onclick="add('Coffee',15)">Add</button>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="cart">
+<h3>Cart</h3>
+<div id="cartItems">No items</div>
+
+<h3 id="total">Total: ₹0</h3>
+
+<button onclick="clearCart()">Clear Cart</button>
+</div>
+
+</div>
+
+<script src="web.js"></script>
+
+</body>
+</html>
+<footer class="foot">
+    &copy;2026 College canteen 
+</footer>
